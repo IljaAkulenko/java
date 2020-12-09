@@ -1,4 +1,4 @@
-import java.util.ArrayList; // Puudus import
+import java.util.ArrayList; // Impordi java.util.ArrayList selleks, et kasutada arrayList teeki.
 
 public class OunaSorteerija {
     public static void main(String[] args) {
@@ -11,23 +11,19 @@ public class OunaSorteerija {
         ArrayList<Integer> medium = new ArrayList<>();
         ArrayList<Integer> big = new ArrayList<>(); 
 
-         ArrayList test = new ArrayList<>(); // valikuline. (Saab sisaldada ka muud)
+    
         // https://www.w3schools.com/java/java_for_loop.asp
         for (int i = 0; i < apples.length; i++) {
-            Integer apple = apples[i]; // Apple muutuja tüüp oli puudu Integer
+            Integer apple = apples[i]; // Lisame  muutuja nimega apple selleks, et hiljem võrrelda numbriga.
             if (apple <= 50) {
-                small.add(apple); // Add meetod vajab midagi mida lisada,
+                small.add(apple); // Add meetod võimaldab lisada elemendi massiivi.
             } else if (apple >= 71) {
-                big.add(apple); // Add meetod vajab midagi mida lisada,
+                big.add(apple);
             } else {
-                medium.add(apple); // Add meetod vajab midagi mida lisada,
+                medium.add(apple); 
             }
         }
-        test.add(small);
-        test.add(medium);
-        test.add(big);
-        System.out.println("Test" + test);
-        System.out.println("Small " + small);
+        System.out.println("Small " + small); // Prindime välja massiivi väärtused
         System.out.println("Medium " + medium);
         System.out.println("Big " + big);
         System.out.println(test);
