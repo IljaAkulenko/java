@@ -1,4 +1,4 @@
-import java.util.ArrayList; // Impordi java.util.ArrayList selleks, et kasutada arrayList teeki.
+import java.util.ArrayList; // Impordi java.util.ArrayList selleks, et kasutada arrayList teegi.
 
 public class OunaSorteerija {
     public static void main(String[] args) {
