@@ -1,4 +1,4 @@
-import java.util.ArrayList; // Puudus import
+import java.util.ArrayList;
 
 public class sorteerimisliin1 {
 
@@ -11,13 +11,13 @@ public class sorteerimisliin1 {
         
      
         for (int i = 0; i < apples.length; i++) {
-           Integer apple = apples[i]; // Apple muutuja tüüp oli puudu Integer
+           Integer apple = apples[i]; 
          if (apple <= 50) {
-            small.add(apple); // Add meetod vajab midagi mida lisada,
+            small.add(apple); 
          } else if (apple >= 71) {
-             big.add(apple); // Add meetod vajab midagi mida lisada,
+             big.add(apple); 
          } else {
-             medium.add(apple); // Add meetod vajab midagi mida lisada,
+             medium.add(apple);
          }
         }
         out.add(small);
